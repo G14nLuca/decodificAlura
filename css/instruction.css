@@ -1,0 +1,96 @@
+main {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: -3.6em;
+}
+
+h2,
+.use span {
+    font-size: 40px;
+}
+
+.rules-wrapper .rules {
+    list-style-type: none;
+}
+
+.rules-wrapper .rules li,
+.example span {
+    font-size: 20px;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example .arrow {
+    width: 70px;
+    transform: rotate(90deg);
+    margin: 30px 0;
+}
+
+.example,
+.use {
+    margin-top: 3.5em;
+}
+
+.use a {
+    text-decoration: none;
+}
+
+.use a span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 640px) {
+    .instructions {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4.7em;
+    }
+
+    .example {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    h2,
+    .use span {
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    h2,
+    .use span {
+        font-size: 65px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .instructions {
+        margin-top: 1.5em;
+    }
+
+    .example {
+        margin-left: 70px;
+    }
+
+    h2,
+    .use span {
+        font-size: 85px;
+    }
+
+    .rules-wrapper .rules li,
+    .example span {
+        font-size: 35px;
+    }
+
+}
