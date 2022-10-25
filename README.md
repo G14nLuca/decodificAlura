@@ -19,4 +19,6 @@ Basicamente, a aplicação se comporta como um decodificador de texto simples, o
 
 A aplicação possui apenas duas funcionalidades: encriptar e decodificar. Ambas obedecem à tabela descrita acima. A primeira função irá procurar os caracteres da coluna à esquerda (vogais) e os substituirá pelas Strings da coluna à direita. A segunda função irá realizar o contrário, procurando os conjuntos de caracteres da coluna à direita e os substituirá pelas vogais da coluna à esquerda.
 
-Nesta situação, por exemplo, a clássica saudação "Hello World!", ao ser codificada será reconstruída como "Henterllober Woberrld!".
+Nesta situação, por exemplo, a clássica saudação "Hello World!", ao ser codificada será reconstruída como "Henterllober Woberrld!":
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/48770103/197796020-0d6934db-139e-441d-906f-ea48f6f727d3.gif)
